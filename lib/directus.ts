@@ -17,7 +17,6 @@ interface Global {
 
 interface Schema {
   articles: Article[];
-  global: Global;
 }
 
 // Create a Directus client
@@ -60,14 +59,15 @@ export async function getArticleBySlug(slug: string) {
   }
 }
 
-export async function getGlobalData() {
-  try {
-    const global = await directus.request(
-      readItem('global', 1)
-    );
-    return global;
-  } catch (error) {
-    console.error('Error fetching global data:', error);
-    return null;
-  }
-}
+// Uncomment this function when you create a 'global' collection in Directus
+// export async function getGlobalData() {
+//   try {
+//     const global = await directus.request(
+//       readItem('global', 1)
+//     );
+//     return global;
+//   } catch (error) {
+//     console.error('Error fetching global data:', error);
+//     return null;
+//   }
+// }
