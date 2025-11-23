@@ -211,8 +211,8 @@ Créez/modifiez `.env.local` :
 
 ```bash
 # Plasmic Configuration
-NEXT_PUBLIC_PLASMIC_PROJECT_ID=4U1gTzf7gPpiwLNinFyz3c
-NEXT_PUBLIC_PLASMIC_PROJECT_API_TOKEN=yP0CoBm0CUn2dcNOXm6OsF5JQlrWodtbNdNTjsHJC1DoMCBNhfV2ydKuapZddTsMIOvLi3EcpzDb4NOB0vFHA
+NEXT_PUBLIC_PLASMIC_PROJECT_ID=tVGGkV4yyGYS35ncErQYxR
+NEXT_PUBLIC_PLASMIC_PROJECT_API_TOKEN=gpSwtw0U00tH9uJbeSKkqrcNxJSG28HkgPSh7ANmfhi6kgMtA9MPEWzqel8UIAMbMjuuZNYqtVDMW10Iw
 PLASMIC_PREVIEW_SECRET=thillion-plasmic-secret-2025
 
 # Directus Configuration
@@ -226,7 +226,7 @@ DIRECTUS_ADMIN_PASSWORD=admin
 #### Étapes de configuration
 
 1. **Créer/Accéder à votre projet** sur https://studio.plasmic.app
-   - Project ID déjà configuré : `4U1gTzf7gPpiwLNinFyz3c`
+   - Project ID déjà configuré : `tVGGkV4yyGYS35ncErQYxR`
 
 2. **Publier votre projet**
    - ⚠️ **IMPORTANT** : Vous devez publier au moins une fois dans Plasmic Studio
@@ -266,8 +266,8 @@ git push origin main
 3. **Import Project** → sélectionnez `mon-site-directus-plasmic`
 4. **Environment Variables** :
    ```
-   NEXT_PUBLIC_PLASMIC_PROJECT_ID=4U1gTzf7gPpiwLNinFyz3c
-   NEXT_PUBLIC_PLASMIC_PROJECT_API_TOKEN=yP0CoBm0CUn2dcNOXm6OsF5JQlrWodtbNdNTjsHJC1DoMCBNhfV2ydKuapZddTsMIOvLi3EcpzDb4NOB0vFHA
+   NEXT_PUBLIC_PLASMIC_PROJECT_ID=tVGGkV4yyGYS35ncErQYxR
+   NEXT_PUBLIC_PLASMIC_PROJECT_API_TOKEN=gpSwtw0U00tH9uJbeSKkqrcNxJSG28HkgPSh7ANmfhi6kgMtA9MPEWzqel8UIAMbMjuuZNYqtVDMW10Iw
    PLASMIC_PREVIEW_SECRET=thillion-plasmic-secret-2025
    NEXT_PUBLIC_DIRECTUS_URL=http://89.116.229.125:8055
    ```
@@ -636,8 +636,8 @@ Dans le dashboard Vercel, configurez :
 
 | Variable | Valeur | Environment |
 |----------|--------|-------------|
-| `NEXT_PUBLIC_PLASMIC_PROJECT_ID` | `4U1gTzf7gPpiwLNinFyz3c` | Production, Preview, Development |
-| `NEXT_PUBLIC_PLASMIC_PROJECT_API_TOKEN` | `yP0CoBm0CUn2dcNOXm6OsF5JQlrWodtbNdNTjsHJC1DoMCBNhfV2ydKuapZddTsMIOvLi3EcpzDb4NOB0vFHA` | Production, Preview, Development |
+| `NEXT_PUBLIC_PLASMIC_PROJECT_ID` | `tVGGkV4yyGYS35ncErQYxR` | Production, Preview, Development |
+| `NEXT_PUBLIC_PLASMIC_PROJECT_API_TOKEN` | `gpSwtw0U00tH9uJbeSKkqrcNxJSG28HkgPSh7ANmfhi6kgMtA9MPEWzqel8UIAMbMjuuZNYqtVDMW10Iw` | Production, Preview, Development |
 | `PLASMIC_PREVIEW_SECRET` | `thillion-plasmic-secret-2025` | Production, Preview, Development |
 | `NEXT_PUBLIC_DIRECTUS_URL` | `http://89.116.229.125:8055` | Production, Preview, Development |
 
