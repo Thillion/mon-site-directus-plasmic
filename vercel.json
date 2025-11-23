@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXT_PUBLIC_PLASMIC_PROJECT_ID": "@plasmic-project-id",
+    "NEXT_PUBLIC_PLASMIC_PROJECT_API_TOKEN": "@plasmic-api-token",
+    "PLASMIC_PREVIEW_SECRET": "@plasmic-preview-secret",
+    "NEXT_PUBLIC_DIRECTUS_URL": "@directus-url"
+  }
+}
