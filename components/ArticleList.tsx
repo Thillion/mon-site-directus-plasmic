@@ -8,10 +8,11 @@ interface Article {
   id: number;
   title: string;
   slug: string;
+  content: string;
   excerpt?: string;
   author?: string;
   published_date: string;
-  status: string;
+  status?: string;
 }
 
 interface ArticleListProps {
